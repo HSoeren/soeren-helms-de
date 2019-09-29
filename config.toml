@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://soeren-helms.de/"
 # include content marked as draft
 buildDrafts = false
 # include content with publishdate in the future
