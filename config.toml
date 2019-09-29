@@ -25,7 +25,7 @@ title = "Soeren Helms"
 [params]
   author = "Soeren Helms"
   email = "me@soeren-helms.de"
-  description = "Landing Page"
+  description = "Personal Info"
   bio = "First Row. \nSecond Row."
   avatar = "img/avatar.jpg"
   favicon = "img/favicon.ico"
