@@ -23,8 +23,8 @@ title = "Soeren Helms"
   posts = "posts/:slug/"
 
 [params]
-  author = "John Doe"
-  email = "john.doe@example.com"
+  author = "Soeren Helms"
+  email = "me@soeren-helms.de"
   description = "Landing Page"
   bio = "First Row. \nSecond Row."
   avatar = "img/avatar.jpg"
