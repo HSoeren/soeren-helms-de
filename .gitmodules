@@ -1,0 +1,3 @@
+[submodule "themes/vncnt-hugo-master"]
+	path = themes/vncnt-hugo-master
+	url = https://github.com/fncnt/vncnt-hugo themes/vncnt-hugo
