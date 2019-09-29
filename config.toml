@@ -32,4 +32,5 @@ title = "Soeren Helms"
   error404 = "There is no such page."
 
   [params.contact]
+    linkedin = "https://www.linkedin.com/in/s%C3%B6ren-helms-774189121/"
     
