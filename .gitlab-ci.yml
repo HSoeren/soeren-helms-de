@@ -23,7 +23,7 @@ pages:
     paths:
     - public
   only:
-  - master
+  - dev
   tags:
     - hugo
     - soeren
