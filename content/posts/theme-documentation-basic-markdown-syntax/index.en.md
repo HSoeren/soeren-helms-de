@@ -1,12 +1,12 @@
 ---
 weight: 4
-title: "Syntaxe de Markdown de Base"
+title: "Basic Markdown Syntax"
 date: 2019-12-01T21:57:40+08:00
 lastmod: 2020-01-01T16:45:40+08:00
-draft: false
+draft: true
 author: "Dillon"
 authorLink: "https://dillonzq.com"
-description: "Cet article présente la syntaxe et le format de base de Markdown."
+description: "This article shows the basic Markdown syntax and format."
 resources:
 - name: "featured-image"
   src: "featured-image.png"
@@ -17,14 +17,9 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-Cet article propose un exemple de syntaxe Markdown de base qui peut être utilisée dans les fichiers de contenu Hugo.
+This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
 <!--more-->
-
-{{< admonition warning >}}
-Sorry, this article has not been completely translated into **French**.
-Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
-{{< /admonition >}}
 
 {{< admonition >}}
 This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
@@ -636,9 +631,9 @@ The rendered output looks like this:
 | ext    | extension to be used for dest files. |
 {{< /admonition >}}
 
-## 11 Links
+## 11 Links {#links}
 
-### Basic Link {#links}
+### Basic Link
 
 ```markdown
 <https://assemble.io>

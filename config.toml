@@ -139,7 +139,7 @@ disableLanguages = [""]
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "Student in der schönsten Hafenstadt"
+          subtitle = "Hamburger Student"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -287,7 +287,7 @@ disableLanguages = [""]
         url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
         title = "GitLab"
         weight = 6
-      [[languages.de.menu.main]]
+      [[languages.en.menu.main]]
         identifier = "impress"
         pre = "<i class='fas fa-gavel fa-fw'></i>"
         post = ""
@@ -451,7 +451,7 @@ disableLanguages = [""]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Sören Helms"
+      name = "Soeren Helms"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = "<i class='fas fa-laptop-code fa-fw'></i> "
       # 1 fas fa-laptop-code
