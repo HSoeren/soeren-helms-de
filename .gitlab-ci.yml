@@ -4,11 +4,17 @@ image: registry.gitlab.com/pages/hugo:latest
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
+before_script:
+  - apk add --update --no-cache git
+
 test:
   script:
   - hugo
   except:
   - master
+  tags:
+    - hugo
+    - soeren
 
 pages:
   script:
@@ -18,3 +24,6 @@ pages:
     - public
   only:
   - master
+  tags:
+    - hugo
+    - soeren
