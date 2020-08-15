@@ -9,3 +9,5 @@ lightgallery: true
 math:
   enable: true
 ---
+
+Please refer to [german impress info](/de/legal)
