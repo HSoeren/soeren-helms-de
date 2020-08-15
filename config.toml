@@ -566,7 +566,7 @@ disableLanguages = [""]
       fullscreen = true
     # Social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -612,8 +612,8 @@ disableLanguages = [""]
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
