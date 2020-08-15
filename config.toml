@@ -4,7 +4,7 @@ theme = "LoveIt"
 title = "Soeren Helms"
 
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true
 
 disableLanguages = [""]
@@ -69,14 +69,14 @@ disableLanguages = [""]
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.de.menu.main]]
-        identifier = "gitlab"
-        pre = "<i class='fab fa-gitlab fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
-        title = "GitLab"
-        weight = 6
+#      [[languages.de.menu.main]]
+#        identifier = "gitlab"
+#        pre = "<i class='fab fa-gitlab fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
+#        title = "GitLab"
+#        weight = 6
       [[languages.de.menu.main]]
         identifier = "impress"
         pre = "<i class='fas fa-gavel fa-fw'></i>"
@@ -279,14 +279,14 @@ disableLanguages = [""]
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.en.menu.main]]
-        identifier = "gitlab"
-        pre = "<i class='fab fa-gitlab fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
-        title = "GitLab"
-        weight = 6
+#      [[languages.en.menu.main]]
+#        identifier = "gitlab"
+#        pre = "<i class='fab fa-gitlab fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
+#        title = "GitLab"
+#        weight = 6
       [[languages.en.menu.main]]
         identifier = "impress"
         pre = "<i class='fas fa-gavel fa-fw'></i>"
@@ -433,7 +433,7 @@ disableLanguages = [""]
 [params]
   version = "0.2.X"
   defaultTheme = "auto"
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   dateFormat = "02.01.2006"
