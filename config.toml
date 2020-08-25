@@ -4,7 +4,7 @@ theme = "LoveIt"
 title = "Soeren Helms"
 
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true
 
 disableLanguages = [""]
@@ -69,14 +69,14 @@ disableLanguages = [""]
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.de.menu.main]]
-        identifier = "gitlab"
-        pre = "<i class='fab fa-gitlab fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
-        title = "GitLab"
-        weight = 6
+#      [[languages.de.menu.main]]
+#        identifier = "gitlab"
+#        pre = "<i class='fab fa-gitlab fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
+#        title = "GitLab"
+#        weight = 6
       [[languages.de.menu.main]]
         identifier = "impress"
         pre = "<i class='fas fa-gavel fa-fw'></i>"
@@ -139,7 +139,7 @@ disableLanguages = [""]
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "Student in der schönsten Hafenstadt"
+          subtitle = "Hamburger Student"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -279,15 +279,15 @@ disableLanguages = [""]
         url = "/about/"
         title = ""
         weight = 5
+#      [[languages.en.menu.main]]
+#        identifier = "gitlab"
+#        pre = "<i class='fab fa-gitlab fa-fw'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
+#        title = "GitLab"
+#        weight = 6
       [[languages.en.menu.main]]
-        identifier = "gitlab"
-        pre = "<i class='fab fa-gitlab fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
-        title = "GitLab"
-        weight = 6
-      [[languages.de.menu.main]]
         identifier = "impress"
         pre = "<i class='fas fa-gavel fa-fw'></i>"
         post = ""
@@ -433,7 +433,7 @@ disableLanguages = [""]
 [params]
   version = "0.2.X"
   defaultTheme = "auto"
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://git.lumos.city/Repronik/Websites/netifypages/soeren-helms-de"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   dateFormat = "02.01.2006"
@@ -451,7 +451,7 @@ disableLanguages = [""]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Sören Helms"
+      name = "Soeren Helms"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = "<i class='fas fa-laptop-code fa-fw'></i> "
       # 1 fas fa-laptop-code
@@ -566,7 +566,7 @@ disableLanguages = [""]
       fullscreen = true
     # Social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -612,8 +612,8 @@ disableLanguages = [""]
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -623,7 +623,7 @@ disableLanguages = [""]
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
+        serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
