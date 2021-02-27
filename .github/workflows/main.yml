@@ -25,12 +25,3 @@ jobs:
 
     - name: Build
       run: hugo --minify
-
-    - name: Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
-      with:
-        git-ftp-args: --insecure --all
-        ftp-server:  soeren-helms.de
-        ftp-username: ${{ secrets.FTP_USER }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public/
