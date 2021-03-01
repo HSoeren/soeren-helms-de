@@ -1,5 +1,5 @@
 # soeren-helms-de
-my personal website, temporarily stored on github before moving to personal gitlab
+my personal website, moved to [personal gitlab](https://git.lumos.city/Repronik/DockerImages/Websites/netifypages/soeren-helms-de/)
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/HSoeren/soeren-helms-de/Publish/master?style=flat-square)  ![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fsoeren-helms.de)
 
